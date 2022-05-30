@@ -5,7 +5,9 @@
 This is my first challenge frontend in [NUWE](https://nuwe.io/challenges).
 
 ## Usage
-![alt text](https://github.com/bryantamayo1/NUWE-Dialog-design-system/src/assets/imgs/dialog_system.PNG?raw=true "Image 1")
+This is final application:
+![alt text](https://github.com/bryantamayo1/NUWE-Dialog-design-system/blob/master/src/assets/imgs/dialog_system.PNG?raw=true "Image 1")
+This project was created with reusable and modular components, we can make a distinction between three state cards like: *warning*, *success* and *error*.
 
 ## Installation
 ```shell
@@ -18,7 +20,7 @@ This is my first challenge frontend in [NUWE](https://nuwe.io/challenges).
 ```
 
 ## Stack
-React, Typescript and Vite.
+React, Typescript, Vite, vitest and styled-components (all styles was created with styled-components because we take advantage the props to select a different state *warning*, *success* and *error*).
 
 ## License 
 [MIT](https://opensource.org/licenses/MIT)
