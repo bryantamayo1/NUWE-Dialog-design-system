@@ -22,7 +22,7 @@ This project was created with reusable and modular components, we can make a dis
 ```
 
 ## Stack
-React, Typescript, Vite, vitest and styled-components (all styles was created with styled-components because we take advantage the props to select a different state *warning*, *success* and *error*.
+React, Typescript, Vite, vitest and styled-components (all styles was created with styled-components because we take advantage the props to select a different state *warning*, *success* and *error*. I used Vite to better performance and using the necessary resources.
 
 ## License 
 [MIT](https://opensource.org/licenses/MIT)
