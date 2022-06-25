@@ -3,12 +3,17 @@ import { AiOutlineClose } from "react-icons/ai";
 import { MyIcon }         from './MyIcon';
 import { MyButtons }      from './MyButtons';
 import { MyCardProps }    from '../interfaces/MyCardInterface';
+import { useContext }     from 'react';
+import { AppContext }     from '../context/AppContext';
 
 export const MyCard = ({ state, title, subtitle }: MyCardProps) => {
+
+  const {cancel} = useContext(AppContext);
+
   return (
     <ContainerCard>
        <ContianerClose>
-          <Close>
+          <Close onClick={cancel}>
             <AiOutlineClose size="18" color="white"/>
           </Close>
        </ContianerClose>

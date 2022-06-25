@@ -5,6 +5,6 @@ import { MyButtons }        from '../src/components/MyButtons';
 describe("MyCard test", () => {
     test("MyCard exists?", () => {
         const component = render(<MyButtons state="success"/>);
-        component.getByText("Cerrar pestaña");
+        component.getByText("¡Cuidado!");
     })
 })
